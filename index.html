@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">  
+    <meta name="milestone" content="Portfolio">
+    <!-- TODO: Replace this with your title -->
+    <title>[Tyler Hitchcock]</title>  
+    <!-- 
+			TODO: Add Bootstrap CSS link tag from: 
+      https://getbootstrap.com/docs/5.2/getting-started/introduction/
+		-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+Office&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    
+    <!-- 
+			TODO: Add Bootstrap Icons link tag from: 
+			https://icons.getbootstrap.com/
+			(Remember, the CDN link is towards the bottom of the page!)
+		-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- Custom styles (these can extend the default Bootstrap styles) -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+<!-- TODO: Paste Navbar code and customize links -->
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-bottom-dark">
+    <!-- <nav class="navbar bg-dark border-bottom border-bottom-dark" data-bs-theme="dark"> -->
+  <!-- Navbar content -->
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="hero-section"></a>
+        <i class="bi bi-coin"></i>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#mission-section">Mission</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills-section">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact-section">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+      </div>
+    </nav>
+      
+    <!-- Hero section -->
+  	<section id="hero-section">
+      <div class="hero__image">
+        <!-- <img src="https://thumbs.dreamstime.com/b/coding-programming-source-code-screen-colorful-abstract-data-display-software-developer-web-program-script-computer-50188994.jpg" class="img-fluid" alt="..."> -->
+        <div class="headshot-image">
+          <img src="img/image.png" class="img-fluid" alt="headshot-image">
+          <span class="rounded-circle"></span>
+        </div>
+      <div class="secton-box">
+        <div class="hero-text">
+          <h1>Tyler Hitchcock</h1>
+          <h2>Coding websites to match your buisness needs!</h2>
+        </div>
+      </div>
+      </div>
+  	</section>
+
+    <hr>
+    
+  	<!-- Mission/Meet-me section -->
+    <section id="mission-section">
+      <div class="mission-background">
+        <div class="section-box">
+        <span class="border border-info">
+          <header class="display-2"><u>Mission</u></header>
+          <h1 class="display-3"> Welcome to my mission page!</h1>
+          <div class="p-3 bg-info bg-opacity-10 border border-info border-start-0 rounded-end">
+            <div class="mission_row">
+              <div class="mission_col">
+                <p class="text-center">My goal and mission is to bring great quality development to buisnesses and always strive to gain more knowledge and hopefully one day, will own my own website development buisness.</p>
+              </div>
+              <!-- </div> -->
+              <div class="mission_col">
+                <div class="mission-image">
+                <!--<div class="text-center"> -->
+                  <span class="rounded">
+                    <img src="img/Mission-background.png" class="img-fluid" alt="mission-image">
+                  </span>
+                <!-- </div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </span>
+        </div>
+      </div>
+  	</section>
+
+    <hr>
+    <!-- Skills section -->
+    <section id="skills-section">
+      <div class="container text-center">
+        <p class="h1">Skills</p>
+          <div class="skills_row">
+            <div class="skills_col">
+              <div class="skills_image">
+                <span class="img-fluid">
+                  <i class="bi bi-filetype-html"></i>
+                  <div class="skills_image_title">
+                    <h1>HTML</h1>
+                    <p class="h2">Structuring the web's content using modern semantic HTML</p>
+                  </div>
+                </span>
+              </div>
+              
+            <div class="skills_col">
+              <div class="skills_image">
+                <span class="img-fluid">
+                  <i class="bi bi-filetype-css"></i>
+                  <div class="skills_image_title">
+                    <h1>CSS</h1>
+                    <p class="h2">Presenting beautiful web designs and interactions using modern CSS.</p>
+                  </div>
+                </span>
+              </div>
+              
+            <div class="skills_col">
+              <div class="skills_image">
+                <span class="img-fluid">
+                  <i class="bi bi-bootstrap"></i>
+                  <div class="skills_image_title">
+                    <h1>Bootstrap</h1>
+                    <p class="h2">Rapidly developing responsive websites using the web's most popular framework.</p>
+                  </div>
+                </span>
+              </div>
+            </div>
+
+            <div class="skills_col">
+              <div class="skills_image">
+                <span class="img-fluid">
+                  <i class="bi bi-filetype-js"></i>
+                  <div class="skills_image_title">
+                    <h1>JavaScript</h1>
+                    <p class="h2">(skill is in progress!) Making interactive websites for all users to experience</p>
+                  </div>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  	</section>
+    
+    <hr>
+    <!-- Contact Section -->
+    <section id="contact-section">
+      <p class="h1">Contact</p>
+      <div class="container text-center">
+          <div class="row text-center">
+          <!-- <div class="contact_row row text-center g-4"> -->
+            <div class="col-12 col-sm-6 col-lg-3">
+            <!-- <div class="contact_col col-12 col-sm-6 col-lg-3"> -->
+              <!-- <div class="contact_image">
+                <span class="img-fluid"> -->
+                  <i class="bi bi-linkedin"></i>
+                <!-- </span>
+              </div> -->
+            </div>
+              
+              <div class="col-12 col-sm-6 col-lg-3">
+            <!-- <div class="contact_col col-12 col-sm-6 col-lg-3"> -->
+              <!-- <div class="contact_image">
+                <span class="img-fluid"> -->
+                  <i class="bi bi-twitter"></i>
+                <!-- </span>
+              </div> -->
+              </div>
+
+                <div class="col-12 col-sm-6 col-lg-3">
+            <!-- <div class="contact_col col-12 col-sm-6 col-lg-3"> -->
+              <!-- <div class="contact_image">
+                <span class="img-fluid"> -->
+                  <i class="bi bi-envelope-at"></i>
+                <!-- </span>
+              </div> -->
+                </div>
+        </div>
+      </div>
+    </section>
+
+    <hr>
+
+    <section class="container my-4" id="carousel">
+			<h3 class="text-center">Websites I Developed</h3>
+			<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-indicators">
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+          </button>
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2">
+          </button>
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3">
+          </button>
+				</div>
+        <div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="img/EcoFriendlySteamers.png" class="d-block w-100" alt="Lombardi">
+						<div class="carousel-caption d-none d-md-block">
+							<h5>Eco Friendly Site</h5>
+							<!-- <p>We work directly with farmers from all over the world</p> -->
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img src="img/GolfersDigest.png" class="d-block w-100" alt="Albert Einstein">
+						<div class="carousel-caption d-none d-md-block">
+							<h5>Golf Site</h5>
+							<!-- <p>A commitment to flavor and a commitment to equity</p> -->
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img src="img/BioPage.png" class="d-block w-100" alt="Hellen Keller">
+						<div class="carousel-caption d-none d-md-block">
+							<h5>Bio Page</h5>
+							<!-- <p>Your favorite single-origin espresso (and ours too)</p> -->
+						</div>
+					</div>
+				</div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+    </section>
+    <!-- Footer section -->
+    <section id="footer-section">
+      <footer>
+        &copy; Tyler Hitchcock 2023
+      </footer>
+    </section>
+  
+    <!-- 
+  		TODO: Paste Bootstrap JavaScript script tag from:
+  		https://getbootstrap.com/docs/5.2/getting-started/introduction/
+  	-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,246 @@
+/* You can add custom CSS and extend Boostrap styles in this file. Remember, Bootstrap is just CSS at the end of the day! */
+body{
+  width: 100%;
+  /* background-image: url(""); */
+}
+
+.hero__image {
+  background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("https://thumbs.dreamstime.com/b/coding-programming-source-code-screen-colorful-abstract-data-display-software-developer-web-program-script-computer-50188994.jpg");
+  width:100%;
+  height: auto;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.hero-text{
+  text-align: center;
+  color: whitesmoke;
+  /* margin-top: 200px; */
+}
+
+
+.headshot-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* justify-content: center;
+  align-items: center;
+  position: relative; */
+  width: 30vw;
+  height: 30vw;
+  object-fit:scale-down;
+}
+
+.headshot-image img{
+  width: 30vw;
+  height: 30vw;
+}
+
+.mission-background{
+  background-color: royalblue;
+  width:100%;
+  height: auto;
+  /* background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative; */
+  
+}
+
+.mission-image{
+  display: block;
+  flex-direction: row;
+  align-items:right;
+  justify-content: auto;
+  object-fit: scale-down;
+  position: relative;
+  
+}
+/* .mission_col{
+  
+} */
+
+.mission_row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .rounded-circle{
+  height:30%;
+  border-radius: 50%;
+} */
+
+#skills-section{
+  background-color: navy;
+  width:100%;
+  height: 100%;
+}
+
+.skills_image{
+  display: block;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.skills_row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:center;
+}
+
+.skills_col{
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+#contact-section{
+  background-color: navy;
+  width:100%;
+  height:300px;
+}
+
+.contact_image{
+  display:block;
+  flex-direction:row;
+  text-align: center;
+  align-items:center;
+}
+
+.contact_col{
+  display: flex;
+  flex-direction:row;
+  text-align:center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+
+/* .section-box{
+  border: 2px black;
+  
+} */
+hr{
+  overflow: visible; /* For IE */
+  padding: 0;
+  border: none;
+  border-top: medium double blue;
+  color: blue;
+  text-align: center;
+}
+
+hr:after {
+  content: "∞";
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: white;
+}
+
+/* border{
+border  
+} */
+
+header{
+  text-align: center;
+  color: white;
+}
+
+.display-3{
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+
+h1{
+  color: lightblue;
+  font-size: 20px;
+}
+
+.h1{
+  color: lightblue;
+  text-align: center;
+}
+
+.h2{
+  text-align: center;
+  font-size: 20px;
+  color: lightskyblue;
+}
+
+h5{
+  color: blue;
+}
+
+h3{
+  color: blue
+}
+
+.bi:hover{
+  color: ghostwhite;
+  font-size: 50px;
+}
+/* .carousel-control-next{
+  color: lightblue;
+}
+
+.carousel-control-prev{
+  color: lightblue;
+} */
+
+p{
+  text-align:justify;
+  font-size: 20px;
+  color: white;
+  font-family: 'Ysabeau Office', sans-serif;
+}
+
+i{
+  font-size: 40px;
+  color: lightblue;
+  text-align:center;
+  /* display:flex;
+  flex-direction:row;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between; */
+  
+}
+
+.nav-link{
+  color: lightblue;
+}
+
+.navbar-toggler{
+  color: lightblue;
+}
+
+.navbar-toggler-icon{
+  background-color: lightblue;
+  color: lightblue;
+}
+
+.navbar{
+  positon: fixed;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+footer{
+  text-align: center;
+  
+}
+
+
